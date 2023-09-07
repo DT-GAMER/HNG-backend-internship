@@ -13,8 +13,8 @@ track_to_github = {
 }
 
 def current_utc_time():
-    utc_time = datetime.datetime.now(pytz, UTC)
-    return utc_time.strftime("%Y-%m-%dT%H:%M:%SZ")
+    utc_time = datetime.datetime.now(pytz.UTC)
+    return utc_time.strftime("%Y-%m-%d, %H:%M:%SZ")
 
 @app.route('/api')
 def get_info():
