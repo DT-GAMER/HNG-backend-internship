@@ -24,12 +24,12 @@ The information required includes:
 
 ```json
 {
-  "slack_name": "example_name",
-  "current_day": "Monday",
-  "utc_time": "2023-08-21T15:04:05Z",
+  "current_day": "Thursday",
+  "github_file_url": "https://github.com/DT-GAMER/HNG-backend-internship/blob/main/app.py",
+  "github_repo_url": "https://github.com/DT-GAMER/HNG-backend-internship",
+  "slack_name": "Abakpa Dominic",
+  "status_code": 200,
   "track": "backend",
-  "github_file_url": "https://github.com/username/repo/blob/main/file_name.ext",
-  "github_repo_url": "https://github.com/username/repo",
-  "status_code": 200
+  "utc_time": "2023-09-07T11:52:12Z"
 }
 
